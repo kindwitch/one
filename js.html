@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">원더</span>푸릇</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">홈으로</a></li>
+            <li><a href="about.html">장바구니</a></li>
+            <li><a href="ppt.html">마이페이지</a></li>
+            <li><a href="student.html">카테고리</a></li>
+            <li><a href="js.html">팀 소개</a></li>
+          </ul>
+        </nav>
+      </div>
+      <section id="newsletter">
+        <div class="container">
+          <h1>검색</h1>
+          <form>
+            <input type="research" placeholder="Enter to research..." />
+            <button type="submit" class="button_1">검색</button>
+          </form>
+        </div>
+      </section>
+    </header>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: DodgerBlue;
+      }
+      
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 500px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      </style>
+      </head>
+      <body>
+    <h1>We are team~!</h1>
+
+    <div class="flex-container">
+      <div><img src="img/apple.jpeg" alt="photo" width="200px"></div>
+      <div>박이슬</div>
+      <div><img src="img/banana.jpg" alt="photo" width="250px"></div>
+      <div>유선빈</div>
+      <div><img src="img/orange.jpeg" alt="photo" width="200px"></div>
+      <div>임건희</div>
+    </div>
+
+    <p>Try to resize the browser window.</p>
+    <p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+    <p>
+      <strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or
+      earlier versions.
+    </p>
+    <style>
+      .all-browsers {
+        margin: 0;
+        padding: 5px;
+        background-color: lightgray;
+      }
+      
+      .all-browsers > h1, .browser {
+        margin: 10px;
+        padding: 5px;
+      }
+      
+      .browser {
+        background: white;
+      }
+      
+      .browser > h2, p {
+        margin: 4px;
+        font-size: 90%;
+      }
+      </style>
+      </head>
+      <body>
+    <article class="all-browsers">
+      <h1>우리가 해냈습니다!</h1>
+      <article class="browser">
+        <h2>박이슬</h2>
+        <p>
+          <a href="https://github.com/kindwitch/mtest.git"><p> - 홈페이지 주소:</p> https://github.com/kindwitch/mtest.git</a> |
+                  <a href="https://github.com/kindwitch"><p>  - github 주소:</p>https://github.com/kindwitch</a> |
+                
+                </p>
+        
+        
+      </article>
+      <article class="browser">
+        <h2>유선빈</h2>
+        <p> - 홈페이지 주소:</p> 
+        <p>  - github 주소: </p>
+      </article>
+      <article class="browser">
+        <h2>임건희</h2>
+        <p> - 홈페이지 주소:</p> 
+        <p>  - github 주소: </p>
+      </article>
+    </article>
+  </body>
+</html>
