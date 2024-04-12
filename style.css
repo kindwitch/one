@@ -5,11 +5,22 @@ body {
   font: Arial, Helvetica, sans-serif;
 }
 
+.logo2 {
+  width: 5rem;
+  height: 5rem;
+  margin-left: 20px;
+}
+
+#branding h1 {
+  color: #31ad0b;
+  margin-top: -65px;
+  margin-left: 98px;
+}
 .cotainer {
   width: 80%;
-  margin: auto;
+  margin: 0px;
   overflow: hidden;
-  background-color: aqua;
+  background-color: white;
 }
 ul {
   margin: 0;
@@ -17,10 +28,8 @@ ul {
 }
 /*Header*/
 header {
-
-  color: white;
-  padding-top: 30px;
-  min-height: 70px;
+  background-color: #97d6f2;
+  min-height: 90px;
   border-bottom: #e8491d 3px solid;
 }
 header a {
@@ -42,56 +51,64 @@ header nav {
   margin-top: 10px;
 }
 header .highlight,
- header .current a{
-    color:#e8491d
-    font-weight: bold;
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
 }
 
 header a:hover {
-    color: #aaaaaa;
-    font-weight: bold; 
-  }
-   #showcase h1 {
-    margin-top: 100px;
-    font-size: 55px;
-    margin-bottom: 10px;;
-  }
-  
-  #showcase p {
-    font-size: 20px;
-  }
-  #showcase {
-    min-height: 400px;
-    background: url('img/basket.jpg') no-repeat 0 -90px;
-    text-align: center;
-    color: rgb(75, 25, 240);
-  }
-  #newsletter {
-    background-color: #2b7db0;
-    padding: 80px;
-    color: white;
-  }
-  
-  #newsletter h1 {
-    float: left;
-  }
-  
-  #newsletter form {
-    float: right;
-    margin-top: 15px;
-  }
-  
-  #newsletter input[type="search"] {
-    padding: 10px;
-    height: 40px;
-    width: 250px;
-  }
+  color: #aaaaaa;
+  font-weight: bold;
+}
+#showcase h1 {
+  margin-top: 0px;
+  font-size: 55px;
+}
 
-  
-  .button_1 {
-    height: 38px;
-    background-color: #e8491d;
-    border: 0;
-    padding: 0 20px;
-    color: white;
-  }
+#showcase p {
+  font-size: 20px;
+}
+#showcase {
+  border-bottom: #e8491d;
+  border-radius: 10px;
+  min-height: 400px;
+  background: url("img/main.jpg") no-repeat 90px;
+  background-size: 100% 100%;
+  background-position: 0%;
+  text-align: center;
+  color: rgb(3, 37, 5);
+  font-family: cursive;
+}
+#newsletter {
+  margin-right: 0%;
+  background-color: white;
+  padding: 80px;
+  color: black;
+}
+
+#newsletter h1 {
+  float: center;
+}
+
+#newsletter form {
+  float: center;
+  margin-top: 15px;
+}
+
+#newsletter input[type="search"] {
+  margin-right: 0%;
+  padding: 10px;
+  height: 10px;
+  width: 300px;
+}
+
+.button_1 {
+  height: 26px;
+  background-color: #e8491d;
+  border: 10;
+  padding: 10 20px;
+  color: black;
+}
+
+form {
+}
